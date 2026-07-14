@@ -37,25 +37,44 @@ AI-Finance-Tracker
 └── .gitignore
 ```
 
-## ▶️ Installation
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- npm (included with Node.js)
+
+## ▶️ Getting Started
+
+1. Clone the repository and enter the project directory:
 
 ```bash
-npm install
+git clone <repository-url>
+cd AI-Finance-Tracker
 ```
 
-Run frontend
+2. Install dependencies for the frontend and backend:
+
+```bash
+cd client && npm install
+cd ../server && npm install
+```
+
+3. Start the development servers (run each in a separate terminal):
+
+**Frontend**
 
 ```bash
 cd client
 npm run dev
 ```
 
-Run backend
+**Backend**
 
 ```bash
 cd server
-node server.js
+npm run dev
 ```
+
+The frontend runs at `http://localhost:5173` and the backend at `http://localhost:5000`.
 
 ## 📌 Status
 
